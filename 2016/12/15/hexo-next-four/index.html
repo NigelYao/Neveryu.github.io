@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT, Neveryu, Never_yu, Blog, Node.js, Git, PHP, JAVA, JAVASCRIPT, HTML, CSS, jQuery, Angular, Vue, React" />
+  <meta name="keywords" content="Hexo,Next," />
 
 
 
@@ -86,17 +86,25 @@
 
 
 
-<meta name="description" content="css-hack 示例 	 	div.css-hack{margin:10px 0;font-size:20px;} 	span.css-hack-item {display:none; color: #f69; font-size: 26px;} 	span.not-ie{display:inline;} 	 	  	  	  	  	  	 	 	 	 		您正在使用 		非I">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Never_yu&#39;s Blog">
-<meta property="og:url" content="https://nigelyao.github.io/yu/css-hack.html">
+<meta name="description" content="提示：本篇文章将介绍在使用 heox 做博客框架中的一些 bug 处理情况。  按照之前的教程介绍应该是会比较顺利的搭建好你的博客，但是难免会遇到一些意外，这个时候就要学会解决问题了。解决问题的原则是：查看 bug 信息，从上到下依次解决 bug。 下面来看几个例子：">
+<meta name="keywords" content="Hexo,Next">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hexo-NexT搭建个人博客（四）">
+<meta property="og:url" content="https://nigelyao.github.io/2016/12/15/hexo-next-four/index.html">
 <meta property="og:site_name" content="Never_yu&#39;s Blog">
-<meta property="og:description" content="css-hack 示例 	 	div.css-hack{margin:10px 0;font-size:20px;} 	span.css-hack-item {display:none; color: #f69; font-size: 26px;} 	span.not-ie{display:inline;} 	 	  	  	  	  	  	 	 	 	 		您正在使用 		非I">
+<meta property="og:description" content="提示：本篇文章将介绍在使用 heox 做博客框架中的一些 bug 处理情况。  按照之前的教程介绍应该是会比较顺利的搭建好你的博客，但是难免会遇到一些意外，这个时候就要学会解决问题了。解决问题的原则是：查看 bug 信息，从上到下依次解决 bug。 下面来看几个例子：">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-01-15T08:57:30.956Z">
+<meta property="og:image" content="http://i1.piimg.com/567571/08a05e89a756ee75.png">
+<meta property="og:image" content="http://i1.piimg.com/567571/a26efa972092fb9e.png">
+<meta property="og:image" content="http://i1.piimg.com/567571/24a28fcb40d1c95f.png">
+<meta property="og:image" content="http://i1.piimg.com/567571/40a2d64a4aba2a04.png">
+<meta property="og:image" content="http://i1.piimg.com/567571/6a740eb49f5ad0c2.png">
+<meta property="og:image" content="http://i1.piimg.com/567571/91abd56ac0617023.png">
+<meta property="og:updated_time" content="2018-01-15T08:57:30.777Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Never_yu&#39;s Blog">
-<meta name="twitter:description" content="css-hack 示例 	 	div.css-hack{margin:10px 0;font-size:20px;} 	span.css-hack-item {display:none; color: #f69; font-size: 26px;} 	span.not-ie{display:inline;} 	 	  	  	  	  	  	 	 	 	 		您正在使用 		非I">
+<meta name="twitter:title" content="Hexo-NexT搭建个人博客（四）">
+<meta name="twitter:description" content="提示：本篇文章将介绍在使用 heox 做博客框架中的一些 bug 处理情况。  按照之前的教程介绍应该是会比较顺利的搭建好你的博客，但是难免会遇到一些意外，这个时候就要学会解决问题了。解决问题的原则是：查看 bug 信息，从上到下依次解决 bug。 下面来看几个例子：">
+<meta name="twitter:image" content="http://i1.piimg.com/567571/08a05e89a756ee75.png">
 
 
 
@@ -117,18 +125,12 @@
 
 
 
-  <link rel="canonical" href="https://nigelyao.github.io/yu/css-hack.html"/>
+  <link rel="canonical" href="https://nigelyao.github.io/2016/12/15/hexo-next-four/"/>
 
 
 <!-- 网页加载条 -->
 <script src="/js/src/pace.min.js"></script>
-  <title>
-  
-
-  
-     | Never_yu's Blog
-  
-</title>
+  <title> Hexo-NexT搭建个人博客（四） | Never_yu's Blog </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -149,7 +151,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left  ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -490,70 +492,213 @@
 
   <div id="posts" class="posts-expand">
     
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
     
-      <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9">
-	<title>css-hack 示例</title>
-	<style>
-	div.css-hack{margin:10px 0;font-size:20px;}
-	span.css-hack-item {display:none; color: #f69; font-size: 26px;}
-	span.not-ie{display:inline;}
-	</style>
-	<!--[if IE]>
-	<style>
-	span.ie{display:inline;}
-	span.not-ie{display:none;}
-	</style>
-	<![endif]-->
+      <header class="post-header">
 
-	<!--[if IE 5]>
-	<style>
-	span.ie5{display:inline;}
-	</style>
-	<![endif]-->
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                Hexo-NexT搭建个人博客（四）
+              
+            
+          </h1>
+        
 
-	<!--[if IE 6]>
-	<style>
-	span.ie6{display:inline;}
-	</style>
-	<![endif]-->
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-12-15T23:25:24+08:00" content="2016-12-15">
+              2016-12-15
+            </time>
+          </span>
 
-	<!--[if IE 7]>
-	<style>
-	span.ie7{display:inline;}
-	</style>
-	<![endif]-->
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/Hexo/" itemprop="url" rel="index">
+                    <span itemprop="name">Hexo</span>
+                  </a>
+                </span>
 
-	<!--[if IE 8]>
-	<style>
-	span.ie8{display:inline;}
-	</style>
-	<![endif]-->
+                
+                
 
-	<!--[if IE 9]>
-	<style>
-	span.ie9{display:inline;}
-	</style>
-	<![endif]-->
-	</head>
-	<body>
-	<div class="css-hack">
-		您正在使用
-		<span class="css-hack-item not-ie">非IE或IE10及其以上版本的</span>
-		<span class="css-hack-item ie">IE</span>
-		<span class="css-hack-item ie5">5</span>
-		<span class="css-hack-item ie6">6</span>
-		<span class="css-hack-item ie7">7</span>
-		<span class="css-hack-item ie8">8</span>
-		<span class="css-hack-item ie9">9</span>
-		浏览器
-	</div>
-	</body>
-	</html>
+              
+            </span>
+          
+
+          
+
+          
+
+          
+          
+
+          
+              &nbsp; | &nbsp;
+              <span class="page-pv">热度
+              <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>℃
+              </span>
+          
+        </div>
+      </header>
     
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p id="div-border-left-blue">提示：本篇文章将介绍在使用 heox 做博客框架中的一些 bug 处理情况。</p>
+
+<p>按照之前的教程介绍应该是会比较顺利的搭建好你的博客，但是难免会遇到一些意外，这个时候就要学会解决问题了。<br>解决问题的原则是：查看 bug 信息，从上到下依次解决 bug。</p>
+<p>下面来看几个例子：</p>
+<a id="more"></a>
+<p>首先这个是在 <code>hexo clean</code> 时报的错：<br><img src="http://i1.piimg.com/567571/08a05e89a756ee75.png" alt=""><br>提示插件 <strong>hexo-deployer-git</strong> 加载失败，想了一下，应该是上次我在移动博客目录的时候，这个模块中有一些文件名比较长的文件，系统会提示移动不过来，导致这个模块异常，很简单，文件夹中删除这个模块，重新安装即可。（或者使用 <strong>npm</strong> 来卸载这个模块，然后重新安装）如下：</p>
+<p><img src="http://i1.piimg.com/567571/a26efa972092fb9e.png" alt=""></p>
+<p>OK ， 现在好了，<code>hexo clean</code> 没有报错了。</p>
+<p><img src="http://i1.piimg.com/567571/24a28fcb40d1c95f.png" alt=""></p>
+<p>下面，我是在执行 <code>hexo g</code> 的操作，同样也出现了错误：</p>
+<p><img src="http://i1.piimg.com/567571/40a2d64a4aba2a04.png" alt=""></p>
+<p>按照图中我标注的步骤，来看一下错误信息：<br>如 1 所示：我们首先会发现缺少模块 <strong>isarray</strong> ，但是我们查看 <strong>package.json</strong> 文件，我们的项目根本就没有引入 <strong>isarray</strong> 这个模块，我猜测这个 <strong>isarray</strong> 模块应该是某个模块的子模块 。</p>
+<p>如 2 所示：我们顺着 <strong>at</strong> 一路往下找。</p>
+<p>如 3 所示：发现这个 <strong>isarray</strong> 是在 <strong>hexo-generator-sitemap</strong> 里面的 ，所以我们删除这个 <strong>hexo-generator-sitemap</strong> 模块，然后重新安装这个模块。如下：</p>
+<p><img src="http://i1.piimg.com/567571/6a740eb49f5ad0c2.png" alt=""></p>
+<p>OK ， 现在好了，<code>hexo g</code> 没有报错了。</p>
+<p><img src="http://i1.piimg.com/567571/91abd56ac0617023.png" alt=""></p>
+<p>那么，就以这两个例子来作为本次的示范吧，其实，<strong>Hexo</strong> 中的一些问题还是比较好解决的，因为它都是依赖其他模块的，定位到出问题的模块，卸载重装即可。</p>
+<p id="div-border-top-red">总结：遇到问题 <strong>bug</strong>，一定要仔细查阅错误提示信息，遵守从上往下解决的方案。</p>
+
+<p></p><h5 style="color:#f63;"><i>最后要说的是：</i></h5><p></p>
+<p id="div-border-top-green"><i><a href="https://github.com/Neveryu/Neveryu.github.io" target="_blank" rel="noopener">博客源码</a> ， 欢迎 star<br></i></p>
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+<blockquote class="blockquote-center" style="color: #ccc;">
+    -------------本文结束 <i class="fa fa-apple"></i> 感谢您的阅读-------------
+</blockquote>
+
+  <span id="inline-green" style="border-radius:3px;">作者</span>：<a class="link-blue" href="https://github.com/Neveryu" target="_blank">Neveryu</a><br/>有问题请 <a class="link-blue" href="https://neveryu.github.io/guestbook" target="_blank">留言</a> 或者私信我的 <a class="link-blue" href="http://weibo.com/Neveryu" target="_blank">微博</a>。
+
+  <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+    <div>满分是10分的话，这篇文章你给几分</div>
+    <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+      <span>赏</span>
+    </button>
+    <div id="QR" style="display: none;">
+      
+        <div id="wechat" style="display: inline-block">
+          <img id="wechat_qr" src="/reward/reward_wechat.png" alt="Never_yu WeChat Pay"/>
+          <p>微信打赏</p>
+        </div>
+      
+      
+    </div>
+  </div>
+
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Hexo/" rel="tag"><i class="fa fa-tag"></i> Hexo</a>
+          
+            <a href="/tags/Next/" rel="tag"><i class="fa fa-tag"></i> Next</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2016/11/22/use-jquery-skill/" rel="next" title="jQuery使用技巧">
+                <i class="fa fa-chevron-left"></i> jQuery使用技巧
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2016/12/24/why-introversion-like-alone/" rel="prev" title="【转】为什么一些生活中很外向开朗的人会喜欢独来独往">
+                【转】为什么一些生活中很外向开朗的人会喜欢独来独往 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+        <!-- JiaThis Button BEGIN -->
+<div class="jiathis_style">
+  <a class="jiathis_button_tsina"></a>
+  <a class="jiathis_button_tqq"></a>
+  <a class="jiathis_button_weixin"></a>
+  <a class="jiathis_button_cqq"></a>
+  <a class="jiathis_button_douban"></a>
+  <a class="jiathis_button_renren"></a>
+  <a class="jiathis_button_qzone"></a>
+  <a class="jiathis_button_kaixin001"></a>
+  <a class="jiathis_button_copy"></a>
+  <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank"></a>
+  <a class="jiathis_counter_style"></a>
+</div>
+<script type="text/javascript" >
+  var jiathis_config={
+    hideMore:false
+  }
+</script>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+
+      
+    </div>
   </div>
 
 
@@ -562,26 +707,6 @@
 
 
           
-  <div class="comments" id="comments">
-    <div id="gitmentContainer" style="margin-bottom: -19px;"></div>
-    <link rel="stylesheet" href="/css/gitment.css">
-    <script src="/js/src/gitment.browser.js" type="text/javascript"></script>
-    <script type="text/javascript">
-      var gitment = new Gitment({
-        id: 'blog-guestbook',
-        owner: 'Neveryu',
-        repo: 'Neveryu.github.io',
-        oauth: {
-          client_id: 'bbd367cf498321402719',
-          client_secret: '5d6b890500a2acaf7705495eee9c5ad12ed1f3d2',
-        },
-      })
-      gitment.render('gitmentContainer')
-    </script>
-
-    
-  </div>
-
         </div>
         
           
@@ -600,8 +725,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/avatar/avatar.png"
@@ -701,6 +835,17 @@
         
       </section>
 
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-5"><a class="nav-link" href="#undefined"><span class="nav-number">1.</span> <span class="nav-text">最后要说的是：</span></a></li></ol></div>
+            
+          </div>
+        </section>
       
       <!-- hack一个虚线出来 -->
       <section style="border-top:1px dotted #ccc;height:10px;"></section>
@@ -827,6 +972,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
 
   
 

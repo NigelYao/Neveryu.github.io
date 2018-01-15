@@ -86,17 +86,17 @@
 
 
 
-<meta name="description" content="css-hack 示例 	 	div.css-hack{margin:10px 0;font-size:20px;} 	span.css-hack-item {display:none; color: #f69; font-size: 26px;} 	span.not-ie{display:inline;} 	 	  	  	  	  	  	 	 	 	 		您正在使用 		非I">
+<meta name="description" content="建站日志2017-10-24：增加鼠标移动效果、自定义的部分单独拿出来作为一个文件然后引入、移除service-worker、静态文件增加版本号.2017-08-15：日常修改(增加网页进度条、字数统计、RSS …)2017-06-25：添加 Service-worker.2017-05-05：实现 summary_img 字段，用于首页显示摘要图片，文章页不显示.2017-02-05：将背景动画">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Never_yu&#39;s Blog">
-<meta property="og:url" content="https://nigelyao.github.io/yu/css-hack.html">
+<meta property="og:title" content="weblog">
+<meta property="og:url" content="https://nigelyao.github.io/weblog/index.html">
 <meta property="og:site_name" content="Never_yu&#39;s Blog">
-<meta property="og:description" content="css-hack 示例 	 	div.css-hack{margin:10px 0;font-size:20px;} 	span.css-hack-item {display:none; color: #f69; font-size: 26px;} 	span.not-ie{display:inline;} 	 	  	  	  	  	  	 	 	 	 		您正在使用 		非I">
+<meta property="og:description" content="建站日志2017-10-24：增加鼠标移动效果、自定义的部分单独拿出来作为一个文件然后引入、移除service-worker、静态文件增加版本号.2017-08-15：日常修改(增加网页进度条、字数统计、RSS …)2017-06-25：添加 Service-worker.2017-05-05：实现 summary_img 字段，用于首页显示摘要图片，文章页不显示.2017-02-05：将背景动画">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:updated_time" content="2018-01-15T08:57:30.956Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Never_yu&#39;s Blog">
-<meta name="twitter:description" content="css-hack 示例 	 	div.css-hack{margin:10px 0;font-size:20px;} 	span.css-hack-item {display:none; color: #f69; font-size: 26px;} 	span.not-ie{display:inline;} 	 	  	  	  	  	  	 	 	 	 		您正在使用 		非I">
+<meta name="twitter:title" content="weblog">
+<meta name="twitter:description" content="建站日志2017-10-24：增加鼠标移动效果、自定义的部分单独拿出来作为一个文件然后引入、移除service-worker、静态文件增加版本号.2017-08-15：日常修改(增加网页进度条、字数统计、RSS …)2017-06-25：添加 Service-worker.2017-05-05：实现 summary_img 字段，用于首页显示摘要图片，文章页不显示.2017-02-05：将背景动画">
 
 
 
@@ -117,7 +117,7 @@
 
 
 
-  <link rel="canonical" href="https://nigelyao.github.io/yu/css-hack.html"/>
+  <link rel="canonical" href="https://nigelyao.github.io/weblog/"/>
 
 
 <!-- 网页加载条 -->
@@ -126,7 +126,7 @@
   
 
   
-     | Never_yu's Blog
+    weblog | Never_yu's Blog
   
 </title>
 </head>
@@ -491,68 +491,8 @@
   <div id="posts" class="posts-expand">
     
     
-      <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9">
-	<title>css-hack 示例</title>
-	<style>
-	div.css-hack{margin:10px 0;font-size:20px;}
-	span.css-hack-item {display:none; color: #f69; font-size: 26px;}
-	span.not-ie{display:inline;}
-	</style>
-	<!--[if IE]>
-	<style>
-	span.ie{display:inline;}
-	span.not-ie{display:none;}
-	</style>
-	<![endif]-->
+      <h3 id="建站日志"><a href="#建站日志" class="headerlink" title="建站日志"></a>建站日志</h3><p><strong>2017-10-24：</strong>增加鼠标移动效果、自定义的部分单独拿出来作为一个文件然后引入、移除service-worker、静态文件增加版本号.<br><strong>2017-08-15：</strong>日常修改(增加网页进度条、字数统计、RSS …)<br><strong>2017-06-25：</strong>添加 Service-worker.<br><strong>2017-05-05：</strong>实现 summary_img 字段，用于首页显示摘要图片，文章页不显示.<br><strong>2017-02-05：</strong>将背景动画调整为按需加载(移动端不加载).<br><strong>2017-01-11：</strong>将多说自定义样式移到本地 &amp; 为多说评论添加显示浏览器及操作系统UA信息.<br><strong>2016-11-11：</strong>布局调整，添加多说id，解决 High一下 中音乐多次点击重复播放的问题.<br><strong>2016-11-01：</strong>解决 Jekyll v3.3中默认忽略 vendor 目录导致 css js 等资源加载不了的问题.<br><strong>2016-09-26：</strong>增加博客背景，鼠标点击样式.<br><strong>2016-09-10：</strong>增加网易云音乐外链、High一下、站内搜索.<br><strong>2016-09-08：</strong>增加不蒜子统计、站点地图、百度推送、美化用户留言头像和avatar.<br><strong>2016-09-06：</strong>选用多说作为分享和留言的平台、并做了一些兼容性的处理、404页面的调整.<br><strong>2016-09-03：</strong>这两天花了一些时间查阅了Hexo的相关文档和资料、选择了NexT.Mist主题、然后今天放到在github上.</p>
 
-	<!--[if IE 5]>
-	<style>
-	span.ie5{display:inline;}
-	</style>
-	<![endif]-->
-
-	<!--[if IE 6]>
-	<style>
-	span.ie6{display:inline;}
-	</style>
-	<![endif]-->
-
-	<!--[if IE 7]>
-	<style>
-	span.ie7{display:inline;}
-	</style>
-	<![endif]-->
-
-	<!--[if IE 8]>
-	<style>
-	span.ie8{display:inline;}
-	</style>
-	<![endif]-->
-
-	<!--[if IE 9]>
-	<style>
-	span.ie9{display:inline;}
-	</style>
-	<![endif]-->
-	</head>
-	<body>
-	<div class="css-hack">
-		您正在使用
-		<span class="css-hack-item not-ie">非IE或IE10及其以上版本的</span>
-		<span class="css-hack-item ie">IE</span>
-		<span class="css-hack-item ie5">5</span>
-		<span class="css-hack-item ie6">6</span>
-		<span class="css-hack-item ie7">7</span>
-		<span class="css-hack-item ie8">8</span>
-		<span class="css-hack-item ie9">9</span>
-		浏览器
-	</div>
-	</body>
-	</html>
     
   </div>
 
@@ -562,26 +502,6 @@
 
 
           
-  <div class="comments" id="comments">
-    <div id="gitmentContainer" style="margin-bottom: -19px;"></div>
-    <link rel="stylesheet" href="/css/gitment.css">
-    <script src="/js/src/gitment.browser.js" type="text/javascript"></script>
-    <script type="text/javascript">
-      var gitment = new Gitment({
-        id: 'blog-guestbook',
-        owner: 'Neveryu',
-        repo: 'Neveryu.github.io',
-        oauth: {
-          client_id: 'bbd367cf498321402719',
-          client_secret: '5d6b890500a2acaf7705495eee9c5ad12ed1f3d2',
-        },
-      })
-      gitment.render('gitmentContainer')
-    </script>
-
-    
-  </div>
-
         </div>
         
           
