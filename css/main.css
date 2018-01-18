@@ -1666,7 +1666,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #61e2fc;
+  background: #acbbff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2174,12 +2174,6 @@ p.search-result {
 #local-search-result {
   height: 88%;
   overflow: auto;
-}
-.busuanzi-count:before {
-  content: " ";
-  float: left;
-  width: 260px;
-  min-height: 25px;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .busuanzi-count {

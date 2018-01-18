@@ -12,14 +12,14 @@
     
     
   <url>
-    <loc>https://nigelyao.github.io/2016/12/24/why-introversion-like-alone/</loc>
+    <loc>https://nigelyao.github.io/2017/02/14/why-we-dropped-zepto/</loc>
     <lastmod>2018-01-15T08:57:30.789Z</lastmod>
     <data>
         <display>
-        <title>【转】为什么一些生活中很外向开朗的人会喜欢独来独往</title>
-        <pubTime>2016-12-24T14:25:24.000Z</pubTime>
+        <title>【转】为什么我们放弃了 Zepto</title>
+        <pubTime>2017-02-13T17:25:24.000Z</pubTime>
         
-        <tag>essay</tag>
+        <tag>zepto</tag>
          
          
            
@@ -32,14 +32,14 @@
 
     
   <url>
-    <loc>https://nigelyao.github.io/2017/02/14/why-we-dropped-zepto/</loc>
+    <loc>https://nigelyao.github.io/2016/12/24/why-introversion-like-alone/</loc>
     <lastmod>2018-01-15T08:57:30.789Z</lastmod>
     <data>
         <display>
-        <title>【转】为什么我们放弃了 Zepto</title>
-        <pubTime>2017-02-13T17:25:24.000Z</pubTime>
+        <title>【转】为什么一些生活中很外向开朗的人会喜欢独来独往</title>
+        <pubTime>2016-12-24T14:25:24.000Z</pubTime>
         
-        <tag>zepto</tag>
+        <tag>essay</tag>
          
          
            
@@ -176,6 +176,26 @@
 
     
   <url>
+    <loc>https://nigelyao.github.io/2017/02/28/memory-leak/</loc>
+    <lastmod>2018-01-15T08:57:30.784Z</lastmod>
+    <data>
+        <display>
+        <title>如何解决内存泄漏引发的血案</title>
+        <pubTime>2017-02-27T17:01:00.000Z</pubTime>
+        
+        <tag>JavaScript</tag>
+         
+         
+           
+             
+              <breadCrumb title="综合" url="https://nigelyao.github.io/categories/%E7%BB%BC%E5%90%88/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://nigelyao.github.io/2017/05/20/npm-two/</loc>
     <lastmod>2018-01-15T08:57:30.784Z</lastmod>
     <data>
@@ -196,12 +216,12 @@
 
     
   <url>
-    <loc>https://nigelyao.github.io/2017/02/28/memory-leak/</loc>
-    <lastmod>2018-01-15T08:57:30.784Z</lastmod>
+    <loc>https://nigelyao.github.io/2017/02/18/js-memory-management-and-gc/</loc>
+    <lastmod>2018-01-15T08:57:30.783Z</lastmod>
     <data>
         <display>
-        <title>如何解决内存泄漏引发的血案</title>
-        <pubTime>2017-02-27T17:01:00.000Z</pubTime>
+        <title>JavaScript 内存管理 & 垃圾回收机制</title>
+        <pubTime>2017-02-18T05:25:24.000Z</pubTime>
         
         <tag>JavaScript</tag>
          
@@ -229,26 +249,6 @@
            
              
               <breadCrumb title="前端" url="https://nigelyao.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://nigelyao.github.io/2017/02/18/js-memory-management-and-gc/</loc>
-    <lastmod>2018-01-15T08:57:30.783Z</lastmod>
-    <data>
-        <display>
-        <title>JavaScript 内存管理 & 垃圾回收机制</title>
-        <pubTime>2017-02-18T05:25:24.000Z</pubTime>
-        
-        <tag>JavaScript</tag>
-         
-         
-           
-             
-              <breadCrumb title="综合" url="https://nigelyao.github.io/categories/%E7%BB%BC%E5%90%88/"/>
           
         </display>
     </data>
@@ -388,26 +388,6 @@
 
     
   <url>
-    <loc>https://nigelyao.github.io/2016/10/07/git/</loc>
-    <lastmod>2018-01-15T08:57:30.776Z</lastmod>
-    <data>
-        <display>
-        <title>Git学习总结</title>
-        <pubTime>2016-10-07T05:25:24.000Z</pubTime>
-        
-        <tag>Git</tag>
-         
-         
-           
-             
-              <breadCrumb title="综合" url="https://nigelyao.github.io/categories/%E7%BB%BC%E5%90%88/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://nigelyao.github.io/2017/05/01/gulp/</loc>
     <lastmod>2018-01-15T08:57:30.776Z</lastmod>
     <data>
@@ -421,6 +401,26 @@
            
              
               <breadCrumb title="前端" url="https://nigelyao.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://nigelyao.github.io/2016/10/07/git/</loc>
+    <lastmod>2018-01-15T08:57:30.776Z</lastmod>
+    <data>
+        <display>
+        <title>Git学习总结</title>
+        <pubTime>2016-10-07T05:25:24.000Z</pubTime>
+        
+        <tag>Git</tag>
+         
+         
+           
+             
+              <breadCrumb title="综合" url="https://nigelyao.github.io/categories/%E7%BB%BC%E5%90%88/"/>
           
         </display>
     </data>
