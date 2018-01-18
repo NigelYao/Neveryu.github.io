@@ -176,26 +176,6 @@
 
     
   <url>
-    <loc>https://nigelyao.github.io/2017/02/28/memory-leak/</loc>
-    <lastmod>2018-01-15T08:57:30.784Z</lastmod>
-    <data>
-        <display>
-        <title>如何解决内存泄漏引发的血案</title>
-        <pubTime>2017-02-27T17:01:00.000Z</pubTime>
-        
-        <tag>JavaScript</tag>
-         
-         
-           
-             
-              <breadCrumb title="综合" url="https://nigelyao.github.io/categories/%E7%BB%BC%E5%90%88/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://nigelyao.github.io/2017/05/20/npm-two/</loc>
     <lastmod>2018-01-15T08:57:30.784Z</lastmod>
     <data>
@@ -216,12 +196,12 @@
 
     
   <url>
-    <loc>https://nigelyao.github.io/2017/02/18/js-memory-management-and-gc/</loc>
-    <lastmod>2018-01-15T08:57:30.783Z</lastmod>
+    <loc>https://nigelyao.github.io/2017/02/28/memory-leak/</loc>
+    <lastmod>2018-01-15T08:57:30.784Z</lastmod>
     <data>
         <display>
-        <title>JavaScript 内存管理 & 垃圾回收机制</title>
-        <pubTime>2017-02-18T05:25:24.000Z</pubTime>
+        <title>如何解决内存泄漏引发的血案</title>
+        <pubTime>2017-02-27T17:01:00.000Z</pubTime>
         
         <tag>JavaScript</tag>
          
@@ -256,6 +236,26 @@
 
     
   <url>
+    <loc>https://nigelyao.github.io/2017/02/18/js-memory-management-and-gc/</loc>
+    <lastmod>2018-01-15T08:57:30.783Z</lastmod>
+    <data>
+        <display>
+        <title>JavaScript 内存管理 & 垃圾回收机制</title>
+        <pubTime>2017-02-18T05:25:24.000Z</pubTime>
+        
+        <tag>JavaScript</tag>
+         
+         
+           
+             
+              <breadCrumb title="综合" url="https://nigelyao.github.io/categories/%E7%BB%BC%E5%90%88/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://nigelyao.github.io/2016/10/16/how-it-feels-to-learn-javascript-in-2016/</loc>
     <lastmod>2018-01-15T08:57:30.782Z</lastmod>
     <data>
@@ -263,9 +263,9 @@
         <title>【转】在2016年学JavaScript是一种什么样的体验</title>
         <pubTime>2016-10-16T15:25:24.000Z</pubTime>
         
-        <tag>JavaScript</tag>
-         
         <tag>essay</tag>
+         
+        <tag>JavaScript</tag>
          
          
            
@@ -495,9 +495,9 @@
         <title>中国国内 JavaScript 圈的现状如何</title>
         <pubTime>2016-11-18T05:25:24.000Z</pubTime>
         
-        <tag>JavaScript</tag>
-         
         <tag>essay</tag>
+         
+        <tag>JavaScript</tag>
          
          
            

@@ -1666,7 +1666,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #d7c936;
+  background: #61e2fc;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2398,12 +2398,6 @@ body {
 }
 .footer-inner {
   width: 90%;
-}
-.footer-inner:before {
-  content: " ";
-  float: left;
-  width: 260px;
-  min-height: 50px;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .footer-inner {
