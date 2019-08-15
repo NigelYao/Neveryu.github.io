@@ -36,4 +36,4 @@ npm run xxx 可以执行 package.json 里面 scripts 里面对应的命令，并
 
 那么 只需运行 npm start 就好，可将时间消耗缩短至 2s节省时间虽说不多，却也是数量级的提升，而且代价只是那么小，并一劳永逸。所以有必要对此。
 
-关于 npm 的详细学习，可以查看：[npm 全面介绍](https://neveryu.github.io/2017/04/10/npm/)
+关于 npm 的详细学习，可以查看：[npm 全面介绍](https://nigelyao.github.io/2017/04/10/npm/)

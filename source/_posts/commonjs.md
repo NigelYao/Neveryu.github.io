@@ -75,7 +75,7 @@ module.js 通过 exports 对象把 setName 和 sayHello 作为模块的访问接
 
 #### 1、按路径加载模块
 
-如果 require 参数以 "/" 开头，那么就以绝对路径的方式查找模块名称，例如 `require('/home/neveryu/module')` 将会按照 优先级依次尝试加载 `/home/neveryu/module.js`、`/home/neveryu/module.json` 和 `/home/neveryu/module.node`。
+如果 require 参数以 "/" 开头，那么就以绝对路径的方式查找模块名称，例如 `require('/home/nigelyao/module')` 将会按照 优先级依次尝试加载 `/home/nigelyao/module.js`、`/home/nigelyao/module.json` 和 `/home/nigelyao/module.node`。
 
 如果 require 参数 "./" 或 "../" 开头，那么则以相对路径的方式查找模块，这种方式在应用中是最常见的。例如前面的例子中我们用了 `require('./hello')`来加载同一文件夹下的 hello.js。
 

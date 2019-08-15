@@ -6,7 +6,7 @@ comments: false
 
 # 联系方式
 Email: React.dong.yu@gmail.com
-Weibo: http://weibo.com/Neveryu
+Weibo: http://weibo.com/nigelyao
 
 # 基本信息
 学历：本科

@@ -63,7 +63,7 @@ service-worker.js 文件，我建议是放在网站的跟目录下，scope 不�
 
 ![](/images/service-worker-2.png)
 
-[我的 service-worker.js](https://neveryu.github.io/service-worker.js)
+[我的 service-worker.js](https://nigelyao.github.io/service-worker.js)
 关于这个 service-worker.js 怎么写，具体可以查看 API ，[MDN Service Worker API](https://developer.mozilla.org/zh-CN/docs/Web/API/Service_Worker_API)。
 
 <p id="div-border-left-red">注意：将 service-worker.js 放到域的根目录下哦，这样 Service worker 才能拥有最大的使用范围。</p>

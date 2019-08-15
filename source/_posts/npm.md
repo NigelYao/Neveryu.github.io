@@ -332,7 +332,7 @@ package.json 是 CommonJS 规定的用来描述包的文件，完全符合规范
 通过使用 npm init 可以根据交互式回答产生一个符合标准的 package.json。创建一个 index.js 作为包的接口,一个简单的包就制作完成了。
 在发布前,我们还需要获得一个账号用于今后维护自己的包,使用 npm adduser 根据提示完成账号的创建
 完成后可以使用 npm whoami 检测是否已经取得了账号。
-接下来,在 package.json 所在目录下运行 npm publish，稍等片刻就可以完成发布了，打开浏览器，访问 http://search.npmjs.org/ 就可以找到自己刚刚发布的包了。现在我们可以在世界的任意一台计算机上使用 npm install neveryumodule 命令来安装它。
+接下来,在 package.json 所在目录下运行 npm publish，稍等片刻就可以完成发布了，打开浏览器，访问 http://search.npmjs.org/ 就可以找到自己刚刚发布的包了。现在我们可以在世界的任意一台计算机上使用 npm install nigelyaomodule 命令来安装它。
 如果你的包将来有更新,只需要在 package.json 文件中修改 version 字段,然后重新使用 npm publish 命令就行了。
 如果你对已发布的包不满意，可以使用 npm unpublish 命令来取消发布。
 

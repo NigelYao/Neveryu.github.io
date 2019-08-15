@@ -1,6 +1,7 @@
 <!-- 鼠标移动特效 -->
 <script type="text/javascript" src="/js/src/jquery-stars.js?v={{theme.version}}"></script>
 <script type="text/javascript">
+/*
 jQuery('body').jstars({
 	image_path: '/images',
 	image: 'candy-cane-stars.png',
@@ -10,4 +11,5 @@ jQuery('body').jstars({
 	delay: 700,
 	frequency: 5
 });
+*/
 </script>

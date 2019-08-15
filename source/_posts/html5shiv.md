@@ -117,7 +117,7 @@ If you did not want to download and store the HTML5shiv on your site,you could r
 ``` html
 <head>
 <meta charset="UTF-8">
-<title>HTML 5 Example by github.com/neveryu</title>
+<title>HTML 5 Example by github.com/nigelyao</title>
 <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 <![endif]-->
@@ -126,7 +126,7 @@ If you did not want to download and store the HTML5shiv on your site,you could r
 ``` html
 <head>
 <meta charset="UTF-8">
-<title>HTML 5 Example by github.com/neveryu</title>
+<title>HTML 5 Example by github.com/nigelyao</title>
 <!--[if lt IE 9]>
     <script src="https://cdn.bootcss.com/html5shiv/3.7.0/html5shiv.min.js"></script>
 <![endif]-->
@@ -152,6 +152,6 @@ HTML5shiv does not apply to XHTML 1.1.
 关于低版本浏览器不能识别 HTML5 标签的问题，除了使用 html5shiv.js 之外，还有一种做法就是为网站创建多套模版，通过程序对 User-Agent 的判断给不同的浏览器用户显示不同的页面，比如优酷网就是采用的这种模式。
 
 # 总结
-[HTML5Shiv](https://neveryu.github.io/2017/01/18/html5shiv/) and [Respond.js](https://neveryu.github.io/2017/02/11/respond-js/) for IE8 support of HTML5 elements and media queries.
+[HTML5Shiv](https://nigelyao.github.io/2017/01/18/html5shiv/) and [Respond.js](https://nigelyao.github.io/2017/02/11/respond-js/) for IE8 support of HTML5 elements and media queries.
 
 

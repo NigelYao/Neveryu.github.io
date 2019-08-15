@@ -57,7 +57,7 @@ summary_img: /images/css-hack-1.png
 打开 `/themes/next/layout/_partials/head.swing` 文件，在文件末尾添加如下代码：
 ```
 <!-- 网页加载条 -->
-<script src="https://neveryu.github.io/js/src/pace.min.js"></script>
+<script src="https://nigelyao.github.io/js/src/pace.min.js"></script>
 ```
 
 然后，打开 `/themes/source/css/_custom/custom.styl` 文件，在文件末尾添加如下代码：
@@ -161,7 +161,7 @@ hexo server --debug
 
 这样还不爽，我希望在写博客的时候，按下 `Ctrl + S` 后能自动刷新浏览器，看到实时的效果，省去了自己手动刷新浏览器的过程，在双屏下，真的很好用，一边写一边看。
 具体的做法是:
-在项目的根目录下添加一个 `gulpfile.js` 文件，文件内容参看 [源码](https://github.com/Neveryu/Neveryu.github.io/blob/resource/gulpfile.js)，这里我就不贴了。
+在项目的根目录下添加一个 `gulpfile.js` 文件，文件内容参看 [源码](https://github.com/nigelyao/nigelyao.github.io/blob/resource/gulpfile.js)，这里我就不贴了。
 然后安装 `gulpfile.js` 里面的依赖包。
 
 `gulpfile.js` 里面有一个 dev-proxy 方法，会代理本地的 4000 端口，并且监听文件变化，如有变化就会自动刷新浏览器。
@@ -178,7 +178,7 @@ cnpm install gulp -g
 cnpm install gulp-minify-css gulp-uglify gulp-htmlmin gulp --save-dev
 ```
 
-然后在 `gulpfile.js` 里面写上相关代码，详情查看 [源码](https://github.com/Neveryu/Neveryu.github.io/blob/resource/gulpfile.js) 。
+然后在 `gulpfile.js` 里面写上相关代码，详情查看 [源码](https://github.com/nigelyao/nigelyao.github.io/blob/resource/gulpfile.js) 。
 
 然后执行 `gulp min` 就会根据 `gulpfile.js` 中的配置，对 public 目录中的静态资源文件进行压缩。
 

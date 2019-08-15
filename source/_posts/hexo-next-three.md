@@ -8,7 +8,7 @@ comments: false
 　　经过前面两期文章，我相信你已经可以在本地建立一个非常令人满意的静态博客了，本篇文章将介绍如何将自己的静态博客部署到 gitpage 上，并托管到 github 上；以及关于 Hexo 和 NexT 中更深层次的一些问题及解方案。
 
 ## 一、菜单栏中标签与侧边栏中标签关联的问题
-　　以我的博客为例，关于菜单栏中的选项 与侧边栏中的选项，由于顶部菜单栏中位置有限，所以我就想在顶部菜单栏中不显示**标签**这一项，于是我在 <span id="inline-purple">主题配置文件</span> 中 将 menu 配置项中的**标签**这一个选项给注释掉了，所以它不会在菜单栏中显示，但是不代表没有这个页面，这个页面是存在的，我们只是使其不显示在顶部的菜单栏中而已，我们可以直接输入绝对地址来查看这个页面，例如：[https://neveryu.github.io/tags/](https://neveryu.github.io/tags/)。但是与此同时，我们发现侧边栏中的<b>标签</b>选项只能显示标签数量，不能点击。
+　　以我的博客为例，关于菜单栏中的选项 与侧边栏中的选项，由于顶部菜单栏中位置有限，所以我就想在顶部菜单栏中不显示**标签**这一项，于是我在 <span id="inline-purple">主题配置文件</span> 中 将 menu 配置项中的**标签**这一个选项给注释掉了，所以它不会在菜单栏中显示，但是不代表没有这个页面，这个页面是存在的，我们只是使其不显示在顶部的菜单栏中而已，我们可以直接输入绝对地址来查看这个页面，例如：[https://nigelyao.github.io/tags/](https://nigelyao.github.io/tags/)。但是与此同时，我们发现侧边栏中的<b>标签</b>选项只能显示标签数量，不能点击。
 
 <!-- more -->
 
@@ -42,8 +42,8 @@ comments: false
 ## 二、关于High一下中的音乐多次点击重叠播放的解决方案
 
 　　在之前的 High一下 的播放音乐，如果多次点击的话，音乐会重复叠加播放，严重影响听歌体验，而且只能播放一首歌。
-　　而现在的 High一下 已经解决了这个问题，而且可以列表循环多首歌曲。我将之前的那段播放音乐的代码换了。由于代码太长了，就不在这里贴出来了。大家可以去查看我的源码：[https://github.com/Neveryu/Blog](https://github.com/Neveryu/Blog)。
-关于播放音乐的代码是在： [https://github.com/Neveryu/Blog/blob/master/themes/next/layout/_partials/header.swig](https://github.com/Neveryu/Blog/blob/master/themes/next/layout/_partials/header.swig) 中的第 60 行开始。
+　　而现在的 High一下 已经解决了这个问题，而且可以列表循环多首歌曲。我将之前的那段播放音乐的代码换了。由于代码太长了，就不在这里贴出来了。大家可以去查看我的源码：[https://github.com/nigelyao/Blog](https://github.com/nigelyao/Blog)。
+关于播放音乐的代码是在： [https://github.com/nigelyao/Blog/blob/master/themes/next/layout/_partials/header.swig](https://github.com/nigelyao/Blog/blob/master/themes/next/layout/_partials/header.swig) 中的第 60 行开始。
 　　需要说明的是：现在的 High一下 实现了歌曲列表循环，所以，我们可以放入多首歌的链接。在代码中以数组元素的形式加入歌曲链接。
 ```
 var songs = [
@@ -123,5 +123,5 @@ type: "picture"
 ```
 
 <h5 style="color:#f63;"><i>最后要说的是：</i></h5>
-<p id="div-border-top-green"><i>[博客源码](https://github.com/Neveryu/Neveryu.github.io) ， 欢迎 star
+<p id="div-border-top-green"><i>[博客源码](https://github.com/nigelyao/nigelyao.github.io) ， 欢迎 star
 </i></p>

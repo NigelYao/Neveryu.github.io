@@ -191,7 +191,7 @@ comments: false
 
 
 #### 5. 鼠标点击小红心的设置
-  1. 将 [love.js](https://github.com/Neveryu/Neveryu.github.io/blob/master/js/src/love.js) 文件添加到 \themes\next\source\js\src 文件目录下。
+  1. 将 [love.js](https://github.com/nigelyao/nigelyao.github.io/blob/master/js/src/love.js) 文件添加到 \themes\next\source\js\src 文件目录下。
   2. 找到 `\themes\next\layout\_layout.swing` 文件，** 在文件的后面，`</body>` 标签之前 ** 添加以下代码：
   ``` html
   <!-- 页面点击小红心 -->
@@ -199,7 +199,7 @@ comments: false
   ```
 
 #### 6. 背景的设置
-  1. 将 [particle.js](https://github.com/Neveryu/Neveryu.github.io/blob/master/js/src/particle.js) 文件添加到 \themes\next\source\js\src 文件目录下。
+  1. 将 [particle.js](https://github.com/nigelyao/nigelyao.github.io/blob/master/js/src/particle.js) 文件添加到 \themes\next\source\js\src 文件目录下。
   2. 找到 `\themes\next\layout\_layout.swing` 文件，** 在文件的后面，`</body>`标签之前 ** 添加以下代码：
   ``` html
   <!-- 背景动画 -->
@@ -249,5 +249,5 @@ creative_commons: by-nc-sa
 将其中第 4 行的注释放开，然后选择你想使用的 LICENSE 即可，可选项参照第 3 行。
 
 <h5 style="color:#f63;"><i>最后要说的是：</i></h5>
-<p id="div-border-top-green"><i>[博客源码](https://github.com/Neveryu/Neveryu.github.io) ， 欢迎 star
+<p id="div-border-top-green"><i>[博客源码](https://github.com/nigelyao/nigelyao.github.io) ， 欢迎 star
 </i></p>

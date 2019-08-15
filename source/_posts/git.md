@@ -361,7 +361,7 @@ git 中生成 sshkey: `ssh-keygen -t rsa -C "youremail"`
 
 ### 问题四
 为什么我把我生成的 ssh key 添加到了 github 中
-然后 也 remote 了 `https://github.com/Neveryu/Xxx.git`
+然后 也 remote 了 `https://github.com/nigelyao/Xxx.git`
 为什么提交的时候报错，或者提示 输入密码账号是为什么
 
 ssh key 是 ssh 协议的密钥，http 协议没权限

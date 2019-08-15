@@ -1,12 +1,12 @@
-博客地址： [https://neveryu.github.io/](https://neveryu.github.io/)
+博客地址： [https://nigelyao.github.io/](https://nigelyao.github.io/)
 
 移动端快速访问：
 
-![my-blog](https://neveryu.github.io/images/view-my-blog.png)
+![my-blog](https://nigelyao.github.io/images/view-my-blog.png)
 
-[建站日志](https://neveryu.github.io/weblog/)
+[建站日志](https://nigelyao.github.io/weblog/)
 
-[给我留言](https://neveryu.github.io/guestbook/)
+[给我留言](https://nigelyao.github.io/guestbook/)
 
 ## 浏览器支持 Browser support
 
@@ -18,7 +18,7 @@
 
 扫码体验：
 
-![vue-sell](https://neveryu.github.io/images/vue-sell-2.png)
+![vue-sell](https://nigelyao.github.io/images/vue-sell-2.png)
 
 --------
 
@@ -26,4 +26,4 @@
 
 扫码体验：
 
-![vue-music](https://neveryu.github.io/images/vue-music-1.png)
+![vue-music](https://nigelyao.github.io/images/vue-music-1.png)

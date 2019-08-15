@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Never_yu's Blog
-subtitle: 认真的人才有资格开玩笑
+title: Nigel Yao's Blog
+subtitle: 比你聪明的人,却比你更加努力
 description: Stay Hungry,Stay Foolish
-author: Never_yu
+author: Nigel_yao
 language: zh-Hans
 timezone:
-email: never_yu@foxmail.com
+email: nigelyaohang@gmail.com
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -74,7 +74,7 @@ deploy:
   type: git
   repository: git@github.com:NigelYao/nigelyao.github.io
   branch: master
-  message: 'Daily updated：{{now("YYYY-MM-DD HH:mm:ss")}} by Never_yu personal PC'
+  message: 'Daily updated：{{now("YYYY-MM-DD HH:mm:ss")}} by NigelYao PC'
 
 # 自己添加的功能
 #1.头像

@@ -6,7 +6,7 @@ tags: [JavaScript]
 comments: false
 ---
 
-当我们了解了 [CommonJS](https://neveryu.github.io/2017/03/07/commonjs/) 以后，CommonJS 规范加载模块是同步的，也就是说，只有加载完成，才能执行后面的操作。
+当我们了解了 [CommonJS](https://nigelyao.github.io/2017/03/07/commonjs/) 以后，CommonJS 规范加载模块是同步的，也就是说，只有加载完成，才能执行后面的操作。
 由于 Node.js 主要用于服务器编程，模块文件一般都已经存在于本地硬盘，所以加载起来比较快，不用考虑非同步加载的方式，所以 CommonJS 规范比较适用。
 但是，如果是浏览器环境，要从服务器端加载模块，这时就必须采用非同步模式。为什么呢？
 

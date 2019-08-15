@@ -26,7 +26,7 @@ comments: false
 <!-- more -->
 
 # 安装
-安装 Hexo 只需几分钟时间，若你在安装过程中遇到问题或无法找到解决方式，请[提交问题](https://neveryu.github.io/guestbook/)，我会尽力解决你的问题。
+安装 Hexo 只需几分钟时间，若你在安装过程中遇到问题或无法找到解决方式，请[提交问题](https://nigelyao.github.io/guestbook/)，我会尽力解决你的问题。
 
 ## 安装前提
 安装 Hexo 相当简单。然而在安装前，您必须检查电脑中是否已安装下列应用程序:
@@ -167,13 +167,13 @@ $ hexo deploy == hexo d
 在 hexo 的配置和设置文件中，在冒号后面没留空格会导致出问题：
 错误的设置：
 ```
-author:Neveryu
+author:nigelyao
 email:react.dong.yu@gmail.com
 language:zh-CN
 ```
 正确的设置：
 ```
-author: Neveryu
+author: nigelyao
 email: react.dong.yu@gmail.com
 language: zh-CN
 ```
@@ -193,5 +193,5 @@ Hexo 中的图标使用的是 [Font Awesome](http://fontawesome.io/) ，所以�
 <i class="fa fa-github fa-2x"></i> `<i class="fa fa-github fa-2x"></i>`
 
 <h5 style="color:#f63;"><i>最后要说的是：</i></h5>
-<p id="div-border-top-green"><i>[博客源码](https://github.com/Neveryu/Neveryu.github.io) ， 欢迎 star
+<p id="div-border-top-green"><i>[博客源码](https://github.com/nigelyao/nigelyao.github.io) ， 欢迎 star
 </i></p>
