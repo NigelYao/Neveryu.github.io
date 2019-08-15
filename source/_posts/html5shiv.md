@@ -1,6 +1,6 @@
 ---
 title: 腻子脚本 — HTML5Shiv
-date: 2017-01-18 13:25:24
+date: 2018-01-18 13:25:24
 categories: 前端
 tags: [JavaScript]
 comments: false
@@ -152,6 +152,6 @@ HTML5shiv does not apply to XHTML 1.1.
 关于低版本浏览器不能识别 HTML5 标签的问题，除了使用 html5shiv.js 之外，还有一种做法就是为网站创建多套模版，通过程序对 User-Agent 的判断给不同的浏览器用户显示不同的页面，比如优酷网就是采用的这种模式。
 
 # 总结
-[HTML5Shiv](https://nigelyao.github.io/2017/01/18/html5shiv/) and [Respond.js](https://nigelyao.github.io/2017/02/11/respond-js/) for IE8 support of HTML5 elements and media queries.
+[HTML5Shiv](https://nigelyao.github.io/2018/01/18/html5shiv/) and [Respond.js](https://nigelyao.github.io/2018/02/11/respond-js/) for IE8 support of HTML5 elements and media queries.
 
 

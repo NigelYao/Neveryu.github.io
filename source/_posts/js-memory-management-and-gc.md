@@ -1,6 +1,6 @@
 ---
 title: JavaScript 内存管理 & 垃圾回收机制
-date: 2017-02-18 13:25:24
+date: 2018-02-18 13:25:24
 categories: 综合
 tags: [JavaScript]
 comments: false

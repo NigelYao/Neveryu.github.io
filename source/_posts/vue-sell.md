@@ -1,6 +1,6 @@
 ---
 title: vue2.x 做一个外卖app
-date: 2017-11-11 03:25:24
+date: 2018-11-11 03:25:24
 categories: 前端
 tags: [vue]
 comments: false

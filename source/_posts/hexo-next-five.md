@@ -1,6 +1,6 @@
 ---
 title: Hexo-NexT搭建个人博客（五）
-date: 2017-07-15 23:25:24
+date: 2018-07-15 23:25:24
 categories: Hexo
 tags: [Hexo, Next]
 comments: false
@@ -22,7 +22,7 @@ comments: false
 ```
 ---
 title: CSS 各种Hack手段
-date: 2017-06-25 03:25:24
+date: 2018-06-25 03:25:24
 categories: 前端
 tags: [CSS]
 comments: false
@@ -156,8 +156,8 @@ hexo server --debug
 ```
 这样的话，我执行 `npm run dev` 就可以启动本地环境了，省去了前面需要分别敲三次命令的步骤。
 为什么可以这样写，详情看这里：
-[npm 全面介绍](/2017/04/10/npm/)
-[npm 的一个小细节](/2017/05/20/npm-two/)
+[npm 全面介绍](/2018/04/10/npm/)
+[npm 的一个小细节](/2018/05/20/npm-two/)
 
 这样还不爽，我希望在写博客的时候，按下 `Ctrl + S` 后能自动刷新浏览器，看到实时的效果，省去了自己手动刷新浏览器的过程，在双屏下，真的很好用，一边写一边看。
 具体的做法是:

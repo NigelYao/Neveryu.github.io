@@ -1,6 +1,6 @@
 ---
 title: CommonJS 详细介绍
-date: 2017-03-07 13:25:24
+date: 2018-03-07 13:25:24
 categories: 前端
 tags: [JavaScript]
 comments: false

@@ -1,6 +1,6 @@
 ---
 title: polyfill — Respond.js
-date: 2017-02-11 23:25:24
+date: 2018-02-11 23:25:24
 categories: 前端
 tags: [JavaScript]
 comments: false

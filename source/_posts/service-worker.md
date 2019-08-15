@@ -1,6 +1,6 @@
 ---
 title: 使用 Service worker 实现加速/离线访问博客
-date: 2017-06-08 11:25:24
+date: 2018-06-08 11:25:24
 categories: 前端
 tags: [Service-worker]
 comments: false

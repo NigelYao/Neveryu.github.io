@@ -1,6 +1,6 @@
 ---
 title: 【转】在2016年学JavaScript是一种什么样的体验
-date: 2016-10-16 23:25:24
+date: 2017-10-16 23:25:24
 categories: 前端
 tags: [essay, JavaScript]
 comments: false
@@ -345,4 +345,4 @@ comments: false
 <p id="div-border-top-blue"><i>译者注：最后一句「听说过 Python 3 吗？」是讽刺 Python 3 发布已经 8 年了，Python 社区却依然在使用 Python 2.7。而 JS 社区正好相反，把还没有实现的语言特性都用到生成环境中了！</i></p>
 
 译者：方应杭
-[原文](https://link.zhihu.com/?target=https%3A//hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f)
+[原文](https://link.zhihu.com/?target=https%3A//hackernoon.com/how-it-feels-to-learn-javascript-in-2017-d3a717dd577f)

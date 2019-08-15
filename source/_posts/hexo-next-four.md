@@ -1,6 +1,6 @@
 ---
 title: Hexo-NexT搭建个人博客（四）
-date: 2016-12-15 23:25:24
+date: 2017-12-15 23:25:24
 categories: Hexo
 tags: [Hexo, Next]
 comments: false

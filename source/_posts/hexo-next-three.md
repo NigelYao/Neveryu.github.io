@@ -1,6 +1,6 @@
 ---
 title: Hexo-NexT搭建个人博客（三）
-date: 2016-11-11 13:25:24
+date: 2017-11-11 13:25:24
 categories: Hexo
 tags: [Hexo, Next]
 comments: false
@@ -95,7 +95,7 @@ $content-desktop-large = 900px
 title: Naruto-Pictures
 categories: [picture]
 tags: [picture,naruto]
-date: 2016-11-02 14:36:04
+date: 2017-11-02 14:36:04
 type: "picture"
 ---
 {% gp 5-3 %}
